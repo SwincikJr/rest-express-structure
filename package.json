@@ -1,13 +1,30 @@
 {
   "name": "rest-express-structure",
   "version": "0.0.1",
-  "description": "A rest api server builder with express and sequelize",
+  "description": "A rest api server builder using express and sequelize",
+  "readmeFilename": "README.md",
+  "keywords": [
+    "rest",
+    "api",
+    "builder"
+  ],
+  "tags": [
+    "rest-express-structure",
+    "0.0.1"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Mauro Swincik Jr",
-  "license": "ISC",
+  "author": {
+    "name": "Mauro Sergio Vapsys Swincik Junior",
+    "email": "mauroswincikjr@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SwincikJr/rest-express-structure"
+  },
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
     "fs": "^0.0.1-security",
